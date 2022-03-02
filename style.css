@@ -1,0 +1,170 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 860px;
+}
+
+/* Header */
+.header {
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.header-container {
+    align-items: center;
+    display: flex;
+}
+
+.logo {
+    width: 100px;
+}
+
+.menu {
+    margin-left: 40px;
+}
+
+.menu-item {
+    color: #595959;
+    font-size: 16px;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    color: #77287d;
+    display: inline-block;
+    text-decoration: underline;
+}
+.banner {
+    background-image: url('images/banner.jpg');
+    background-size: cover;
+    height: 500px;
+}
+
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+.banner-title {
+    color: #222222;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.banner-subtitle {
+    color: #595959;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+/* Category */
+.category {
+    margin-top: 32px;
+}
+
+.category-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.category-item {
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgb(34 34 34 / 15%);
+    color: #222222;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.category-item:hover {
+    background-color: #77287d;
+    color: #ffffff;
+}
+
+/* Popular */
+.popular {
+    margin-top: 56px;
+}
+
+/* Product */
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    justify-content: space-between;
+    row-gap: 36px;
+}
+
+.product-item {
+    border: 1px solid #e3e3e3;
+    border-radius: 8px;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.product-image {
+    height: 180px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.product-title {
+    color: #222222;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+.product-price {
+    color: #595959;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+.product-item:hover {
+    background-color: #77287d;
+}
+
+.product-item:hover .product-title,
+.product-item:hover .product-price {
+    color: #fff;
+}
+
+/* Contact Us */
+.contact-us {
+    margin-top: 56px;
+}
+
+.contact-input {
+    display: block;
+    margin-bottom: 16px;
+    padding: 8px 16px;
+    width: 400px;
+}
+
+.contact-button {
+    background-color: #77287d;
+    border: none;
+    color: #ffffff;
+    display: block;
+    padding: 8px 16px;
+    width: 400px;
+}
+
+/* Footer */
+.footer {
+    background-color: #77287d;
+    color: #ffffff;
+    margin-top: 64px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}

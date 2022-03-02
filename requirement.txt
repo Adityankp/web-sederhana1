@@ -1,0 +1,9 @@
+--- FONT ---
+Font family: Open Sans
+Source: Google Font (https://fonts.google.com/specimen/Open+Sans)
+Weight: 400, 500, 700
+
+--- COLOR ---
+Text: #222222
+Caption: #595959
+Purple: #77287d
